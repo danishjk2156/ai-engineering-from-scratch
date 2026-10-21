@@ -58,6 +58,8 @@ for i in range(10):
     if i % 5 == 0:
         print(x,y,bowl(x,y))
 print(x,y,bowl(x,y))
+x=4
+y=3
 for i in range(30):
     x,y=gradientds2d(x,y,0.1,f2)
     if i % 5 == 0:
